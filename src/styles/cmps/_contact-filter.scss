@@ -1,0 +1,34 @@
+.contact-filter {
+  width: 100%;
+  > * {
+    padding: 7px;
+    font-family: Raleway, sans-serif;
+  }
+  input {
+    background-color: darken($clr1, 5%);
+    color: $clr4;
+    border: none;
+    width: 80%;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    background-color: darken($clr5, 1%);
+    color: $clr2;
+    font-weight: bold;
+    border: none;
+    width: 20%;
+    // padding-right: rem(18px);
+    // padding-left: rem(18px);
+    transition: .2s;
+    &:hover {
+      background-color: lighten($clr5, 5%);
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    button {
+      // font-size: 0.8rem;
+    }
+  }
+}

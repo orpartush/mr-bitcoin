@@ -1,0 +1,156 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: $clr1;
+  margin-bottom: rem(20px);
+  > * {
+    margin: rem(20px);
+  }
+  .r-icon {
+    font-size: 1.2rem;
+    color: #d2933c;
+  }
+  a {
+    color: $clr5;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    transition: 0.2s;
+    &:hover {
+      color: lighten($clr5, 10%);
+    }
+  }
+  .logo > a {
+    font-family: AlegreyaSansBold, sans-serif;
+    font-size: 2.5rem;
+    span {
+      color: #d2933c;
+    }
+  }
+  .nav-links {
+    > :first-child {
+      padding-right: 15px;
+    }
+    > * {
+      color: $clr5;
+      font-size: 0.9rem;
+      font-weight: bold;
+      letter-spacing: 0.04em;
+      transition: 0.2s;
+      &:hover {
+        color: lighten($clr5, 10%);
+      }
+    }
+    div {
+      * {
+        margin-left: 15px;
+      }
+      .signout {
+        color: $clr5;
+        font-size: 0.9rem;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        transition: 0.2s;
+        &:hover {
+          color: lighten($clr5, 10%);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .close-menu-btn {
+    display: none;
+    z-index: 9999;
+    color: $clr5;
+    font-size: 1.5rem;
+    transition: 0.2s;
+    &:hover {
+      cursor: pointer;
+      color: lighten($clr5, 10%);
+    }
+  }
+
+  @media only screen and (max-width: 920px) {
+    .logo > a {
+      font-family: AlegreyaSansBold, sans-serif;
+      font-size: 2rem;
+      span {
+        color: #d2933c;
+      }
+    }
+    .nav-links {
+      margin: 10px;
+      * {
+        font-size: 1.8rem;
+        padding-bottom: 100px;
+      }
+      > :first-child {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 0;
+        margin-top: rem(75px);
+      }
+      z-index: 999;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0;
+      margin: 0;
+      transform: translate(100%, 100%);
+      width: 50%;
+      height: 100vh;
+      background-color: $clr1;
+      transition: 0.3s;
+      margin: 0;
+      a,
+      div *,
+      div .signout {
+        margin: 0;
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      div {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: fit-content;
+        padding: 0;
+      }
+    }
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 5%;
+      right: 1%;
+      color: $clr5;
+      transition: 0.2s;
+      font-size: 1.8rem;
+      &:hover {
+        color: lighten($clr5, 10%);
+        cursor: pointer;
+      }
+    }
+    .menu-open {
+      position: fixed;
+      transform: translate(0, 0);
+      box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.7);
+    }
+    .close-menu-btn.menu-open,
+    .hamburger.menu-open {
+      display: block;
+      box-shadow: none;
+      position: absolute;
+      top: 5%;
+      right: 1%;
+    }
+  }
+}

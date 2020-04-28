@@ -1,0 +1,37 @@
+.move-list {
+  width: fit-content;
+  border-radius: 3px;
+  :last-child {
+    border: none;
+  }
+  * {
+    font-family: OpenSans, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 1rem;
+  }
+  .title {
+    width: 100%;
+    font-family: AlegreyaSansBold, sans-serif;
+    color: $clr4;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .move-info {
+    padding: 5px;
+    width: 100%;
+    border-bottom: 2px groove lighten($clr1, 10%);
+    padding: rem(5px);
+    :first-child {
+      margin-bottom: rem(5px);
+    }
+    .amount {
+      font-weight: bold;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    * {
+      font-size: 0.9rem;
+    }
+  }
+}

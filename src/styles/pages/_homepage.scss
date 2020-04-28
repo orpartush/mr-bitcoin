@@ -1,0 +1,60 @@
+.home-page {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: $clr2;
+  padding: 20px;
+  padding-top: 0;
+  border-radius: 10px;
+  .user-container {
+    padding-bottom: rem(20px);
+    .info {
+      margin-right: rem(20px);
+      h1 {
+        font-family: AlegreyaSansBold, sans-serif;
+        letter-spacing: 0.03em;
+        color: $clr4;
+      }
+      div {
+        margin: 5px;
+        .react-icons {
+          font-size: 1.3rem;
+          margin-right: 5px;
+          color: $clr4;
+        }
+      }
+      p {
+        font-family: AlegreyaSans, sans-serif;
+        letter-spacing: 0.03em;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+    }
+    img {
+      width: 150px;
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    width: 95%;
+    .user-container {
+      // flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      .info {
+        height: 100%;
+        align-self: flex-end;
+        justify-content: center;
+        h1 {
+          margin: 0;
+          font-size: 1.3rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      img {
+        width: 130px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

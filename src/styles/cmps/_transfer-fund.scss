@@ -1,0 +1,35 @@
+.transfer-fund {
+  margin-bottom: rem(20px);
+  form > * {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: OpenSans, sans-serif;
+  }
+  input {
+    background-color: darken($clr1, 5%);
+    min-width: rem(180px);
+    color: $clr4;
+    border: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    background-color: darken($clr5, 1%);
+    color: $clr2;
+    font-weight: bold;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: 0.2s;
+    &:hover {
+      background-color: lighten($clr5, 5%);
+    }
+  }
+  .success {
+    color: green;
+    font-weight: bold;
+  }
+}

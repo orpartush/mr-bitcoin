@@ -1,0 +1,91 @@
+.edit-contact {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: $clr2;
+  padding: 10px;
+  border-radius: 10px;
+  nav {
+    div > * {
+      font-size: 2rem;
+      padding: 5px;
+      color: darken($clr5, 1%);
+      transition: 0.2s;
+      &:hover {
+        color: lighten($clr5, 10%);
+        cursor: pointer;
+      }
+    }
+  }
+  p {
+    font-size: 1.5rem;
+    font-family: AlgeryaSansBold, sans-serif;
+    color: $clr4;
+    text-align: center;
+  }
+  form {
+    section {
+      input {
+        background-color: $clr1;
+        color: $clr3;
+        font-family: Raleway, sans-serif;
+        border: none;
+        border-radius: 7px;
+        padding: 10px;
+        font-size: 1rem;
+        margin: 10px 20px;
+      }
+      :last-child {
+        margin-bottom: 10px;
+      }
+    }
+    button {
+      width: fit-content;
+      margin-left: auto;
+      margin-right: rem(20px);
+      background-color: darken($clr5, 1%);
+      color: $clr2;
+      font-family: AlegreyaSans, sans-serif;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 3px;
+      padding: rem(5px) rem(30px);
+      transition: 0.2s;
+      &:hover {
+        background-color: lighten($clr5, 5%);
+      }
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    img {
+      align-self: center;
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      section {
+        align-items: center;
+        input {
+          margin: 0;
+          margin-bottom: 10px;
+          font-size: 0.9rem;
+          width: 95%;
+        }
+      }
+      button {
+        margin: 0;
+      }
+    }
+    img {
+      width: 180px;
+    }
+  }
+}

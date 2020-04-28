@@ -1,0 +1,32 @@
+.signup-page {
+  img {
+    max-width: 250px;
+  }
+  form {
+    * {
+      border: none;
+      padding: 10px;
+      font-weight: bold;
+      font-family: Raleway, sans-serif;
+      &:focus {
+        outline: none;
+      }
+    }
+    input {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: darken($clr1, 8%);
+      color: $clr5;
+    }
+    button {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: $clr5;
+      color: $clr1;
+      transition: .3s;
+      &:hover {
+        background-color: lighten($clr5, 7%);
+      }
+    }
+  }
+}

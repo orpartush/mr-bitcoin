@@ -1,0 +1,47 @@
+.contact-preview {
+  background-color: $clr2;
+  color: $clr4;
+  border-bottom: 2px groove lighten($clr1, 10%);
+  transition: ease-out 0.1s;
+  cursor: pointer;
+  &:hover {
+    background-color: lighten($clr2, 2%);
+  }
+  img {
+    width: 90px;
+  }
+  .info {
+    margin-left: 20px;
+    :first-child {
+      padding-bottom: 5px;
+    }
+  }
+  button {
+    margin-right: rem(20px);
+    background-color: $clr2;
+    color: $clr4;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid $clr4;
+    transition: 0.2s;
+    &:hover {
+      border: 1px solid $clr5;
+      color: $clr5;
+    }
+  }
+  .edit-btn {
+    margin-left: auto;
+  }
+  .info-icon {
+    margin-left: auto;
+    margin-right: 75px;
+    color: darken($clr5, 1%);
+    font-size: 1.3rem;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .info-icon {
+      display: none;
+    }
+  }
+}
