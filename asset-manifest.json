@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mr-bitcoin/static/css/main.2ac07087.chunk.css",
-    "main.js": "/mr-bitcoin/static/js/main.c9c7b2a1.chunk.js",
-    "main.js.map": "/mr-bitcoin/static/js/main.c9c7b2a1.chunk.js.map",
-    "runtime-main.js": "/mr-bitcoin/static/js/runtime-main.2af77c22.js",
-    "runtime-main.js.map": "/mr-bitcoin/static/js/runtime-main.2af77c22.js.map",
-    "static/js/2.c19363b0.chunk.js": "/mr-bitcoin/static/js/2.c19363b0.chunk.js",
-    "static/js/2.c19363b0.chunk.js.map": "/mr-bitcoin/static/js/2.c19363b0.chunk.js.map",
-    "index.html": "/mr-bitcoin/index.html",
-    "precache-manifest.916abf512f9fb0a3f63b17899e1b7407.js": "/mr-bitcoin/precache-manifest.916abf512f9fb0a3f63b17899e1b7407.js",
-    "service-worker.js": "/mr-bitcoin/service-worker.js",
-    "static/css/main.2ac07087.chunk.css.map": "/mr-bitcoin/static/css/main.2ac07087.chunk.css.map",
-    "static/js/2.c19363b0.chunk.js.LICENSE.txt": "/mr-bitcoin/static/js/2.c19363b0.chunk.js.LICENSE.txt",
-    "static/media/global.scss": "/mr-bitcoin/static/media/Raleway-Medium.bb5ae98e.ttf",
-    "static/media/bitcoin.png": "/mr-bitcoin/static/media/bitcoin.81fb83aa.png"
+    "main.css": "/static/css/main.d6614df9.chunk.css",
+    "main.js": "/static/js/main.7f87b9c1.chunk.js",
+    "main.js.map": "/static/js/main.7f87b9c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b0abf56.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b0abf56.js.map",
+    "static/js/2.ffce9601.chunk.js": "/static/js/2.ffce9601.chunk.js",
+    "static/js/2.ffce9601.chunk.js.map": "/static/js/2.ffce9601.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c2da7ad14210b35d51fefaa90cf3e3c0.js": "/precache-manifest.c2da7ad14210b35d51fefaa90cf3e3c0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d6614df9.chunk.css.map": "/static/css/main.d6614df9.chunk.css.map",
+    "static/js/2.ffce9601.chunk.js.LICENSE.txt": "/static/js/2.ffce9601.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/static/media/Raleway-Medium.bb5ae98e.ttf",
+    "static/media/bitcoin.png": "/static/media/bitcoin.81fb83aa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2af77c22.js",
-    "static/js/2.c19363b0.chunk.js",
-    "static/css/main.2ac07087.chunk.css",
-    "static/js/main.c9c7b2a1.chunk.js"
+    "static/js/runtime-main.6b0abf56.js",
+    "static/js/2.ffce9601.chunk.js",
+    "static/css/main.d6614df9.chunk.css",
+    "static/js/main.7f87b9c1.chunk.js"
   ]
 }
