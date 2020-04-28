@@ -34,7 +34,7 @@ export class App extends Component {
 
   render() {
     return (
-      <Router history={history}>
+      <Router history={history} basename={`${process.env.PUBLIC_URL}/`}>  
         <main className="App container">
           <Header user={this.state.user} signout={this.onSignout} />
           <Route exact path="/" component={SignUpPage} />

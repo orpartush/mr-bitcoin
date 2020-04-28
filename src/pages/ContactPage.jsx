@@ -43,7 +43,7 @@ export class ContactPage extends Component {
   };
 
   onAddContactClick = () => {
-    this.props.history.push('./edit-contact');
+    this.props.history.push('/edit-contact');
   }
 
   render() {
